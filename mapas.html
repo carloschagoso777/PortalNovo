@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPAS|UIM-MA</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    .nav-link{
+  color: #E5EDF1;
+  font-size: 20px;
+  
+}
+.nav-link:hover{
+  color: #c4c9cc;}
+
+  #botao{
+  color: #E5EDF1;
+  size: 20px;
+  border-color: none;
+}
+
+#botao1{
+  color:#E5EDF1;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+#botao1:hover{
+  color: #c4c9cc;
+  border: none;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg " style="display: flex;background-color: #052D62;">
+   
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="display: flex;justify-content: center;">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html" role="button"target="_blank" >
+                    <img class="logo" src="img/logo.png" alt="" height="40px" width="40px" >
+                </a>
+            
+            <li class="nav-item dropdown active">
+              <button id="botao1" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #052D62;font-size: 20px;outline: none;">
+               Sistemas
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://analisededados.sebrae.com.br/sense/app/83c2381a-2231-4f16-b1c4-7d1ec7cc9ee4/sheet/1f4ff2e9-57e7-43a2-a982-9ff06fc2b776/state/analysis" target="_blank">Minerador</a></li>
+                      <li><a class="dropdown-item" href="https://datampe.sebrae.com.br/" target="_blank">Data MPE</a></li>
+                      <li><a class="dropdown-item" href="https://datampe.sebrae.com.br/economic-complexity" target="_blank">Explorador de complexidade</a></li>
+                      <li><a class="dropdown-item" href="https://municipio-em-numeros.sebrae.com.br/rel/portal/" target="_blank">Município em numeros</a></li>
+                      <li><a class="dropdown-item" href="https://datasebrae.com.br/" target="_blank">DATA SEBRAE</a></li>
+                      <li><a class="dropdown-item" href="https://radarsebrae.com.br/" target="_blank">RADAR SEBRAE</a></li>
+                      <li><a class="dropdown-item" href="https://dataimesc.imesc.ma.gov.br/" target="_blank">DATA IMESC</a></li>
+                      <li><a class="dropdown-item" href="https://www.cidadeunica.com.br/home/" target="_blank">CIDADE ÚNICA</a></li>
+                      <li><a class="dropdown-item" href="https://click.pr.sebrae.com.br/" target="_blank">click SEBRAE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown active">
+              <button id="botao1" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #052D62;font-size: 20px;">
+              Painéis
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Dashboard-Densidade-Empresarial.html" target="_blank">Densidade Empresarial 2024</a></li>
+                      
+    
+                <!--<button class="subdropbtn" onpointerover="toggleSubmenu()"  style="background-color: white;border-color: white;box-shadow:white; border: none;margin-left: 6%;">Atendimentos 2023/2024</button>-->
+                <li><a class="dropdown-item" href="https://app.powerbi.com/Redirect?action=OpenApp&appId=37efecf7-cce0-4aaa-b5e0-255e39f5a343&ctid=97298271-1bd7-4ac5-935b-88addef636cc" target="_blank">Atendimento 2023/2024</a></li>
+                      <li><a class="dropdown-item" href="https://analisededados.sebrae.com.br/single/?appid=10cf7e0b-8499-4ff5-9a44-954555b8aca4&sheet=3351ab3c-0699-472c-9999-5e08e8ea5e3d&theme=card&opt=ctxmenu,currsel&select=$::UF,MA&select=$::EMPRESAS.DS_PORTE,EPP,ME,MEI&select=$::EMPRESAS.DS_SIT_CADASTRAL,Ativa&qlikTicket=zVQX-0JOLvIpEDpI" target="_blank">Atividades Empresariais.</a></li>
+                      <li><a class="dropdown-item" href="https://analisededados.sebrae.com.br/hub/stream/17583982-8174-4654-b6f6-0fbab71005f0" target="_blank">Análise de dados -Qlik</a></li>
+                      <li><a class="dropdown-item" href="https://dev-analisededados.sebrae.com.br/sense/app/551f06bf-84d3-45d8-9f71-7a363aa3de5e/sheet/7e7ba731-dbe8-49a5-8cbe-c82b372895f8/state/analysis" target="_blank">Territorios Empreendedores</a></li>
+                      <li><a class="dropdown-item" href="https://analisededados.sebrae.com.br/sense/app/833ca460-b890-462c-84b2-5a64cd96cbec/overview" target="_blank">Metas Mobilizadoras</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="https://app.powerbi.com/view?r=eyJrIjoiNDllMjBhMzAtYTcxZS00Y2I0LTgyMTAtZTAxNjM1MDViNGJmIiwidCI6Ijk3Mjk4MjcxLTFiZDctNGFjNS05MzViLTg4YWRkZWY2MzZjYyIsImMiOjR9" role="button"target="_blank" >
+                Monitor MEI
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="https://eadsebraema.com.br/" role="button"target="_blank" >
+                EAD
+              </a>
+              
+            </li>
+            
+            <li class="nav-item dropdown active">
+              <button id="botao1" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #052D62;font-size: 20px;">
+               Relatórios
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="boletins.html" target="_blank">Boletins</a></li>
+                <li><a class="dropdown-item" href="mapas.html" target="_blank">Mapas</a></li>
+                <li><a class="dropdown-item" href="https://datasebrae.com.br/pesquisa-gem/" target="_blank">Pesquisa GEM</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutoriais.html" target="_blank" >Tutoriais</a>
+            </li>
+    
+    
+    
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+<div class="list-group"  style="display: flex;justify-content: center;">
+
+        <a href="Mapas/Açailândia.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Açailândia</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Bacabal.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Bacabal</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Balsas.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Balsas</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Caxias.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Caxias</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Chapadinha.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Chapadinha</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Grajaú.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Grajaú</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Imperatriz.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Imperatriz</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Lençóis-Munim.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Lençóis-Munim</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Pinheiro.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Pinheiro</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Presidente_Dutra.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Presidente Dutra</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/Santa_Inês.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Santa Inês</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+        <a href="Mapas/São_Luís.png" target="_blank" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">São Luís</h5>
+                <!-- Adicione informações adicionais, se necessário -->
+            </div>
+        </a>
+
+</div>
+<p style=" color: #052D62;font-size: 10px;display: flex;justify-content: center;margin-top: 50px;">© 2024 POR UIM - UNIDADE DE INTELIGÊNCIA DE MERCADO - SEBRAE MARANHÃO</p> 
+</body>
+</html>
